@@ -6,3 +6,7 @@ module "vpc" {
   environment = var.environment
   vpc_tags = var.vpc_tags
 }
+
+#data "aws_availability_zone" "available" {
+#  state = "available"
+#}
